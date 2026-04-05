@@ -1,1 +1,35 @@
+.navbar-brand {
+  font-weight: bold;
+}
 
+.navbar-collapse.in,
+.navbar-collapse.collapsing {
+  background-color: #d9534f;
+}
+
+.navbar-collapse .nav > li > a {
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-collapse .nav > li > a:hover {
+  background-color: #c9302c;
+  color: #fff;
+}
+
+#our-menu {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+#main-section {
+  background-color: #f2f2f2;
+  min-height: 1000px;
+  padding: 25px 30px;
+  border: 1px solid #ddd;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.8;
+}
